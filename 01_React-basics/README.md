@@ -41,10 +41,10 @@ main.jsx connects React to the HTML in index.html.
 
 ## 🧱 3. Components
 
-# What is a Component?
+### What is a Component?
 A Component is a reusable part of the UI (like a button, navbar, or card).
 
-# How to create a Component:
+### How to create a Component:
 // src/components/Navbar.jsx
 import React from 'react';
 
@@ -58,7 +58,7 @@ const Navbar = () => {
 
 export default Navbar;
 
- # How to use it in App.jsx:
+ ###  How to use it in App.jsx:
  import React from 'react';
 import Navbar from './components/Navbar';
 

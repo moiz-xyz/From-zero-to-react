@@ -31,7 +31,6 @@ Each topic is explained in its own folder with simple code examples and notes.
 - **. Redux** – State management with Redux Toolkit  
 - **. Axios** – API calls and handling server data
 
-
 ---
 
 ## 🎯 Goal
@@ -43,6 +42,6 @@ No advanced words, no confusion — just one clear folder for each topic with wo
 
 ## 🙌 Connect with Me
 
-Made with ❤️ by [Moiz](https://github.com/moiz-xyz)  
-If you’re learning React, feel free to fork this repo or ask questions. Let’s grow together!
+### Made with ❤️ by [Moiz](https://github.com/moiz-xyz)  
+### If you’re learning React, feel free to fork this repo or ask questions. Let’s grow together!
 
