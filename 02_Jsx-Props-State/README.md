@@ -1,4 +1,4 @@
-# 🚀 React Beginner Notes: JSX, Props, and State
+# 🚀 React  JSX, Props, and State
 
 Welcome! This guide is for beginners who are learning the core concepts of React — **JSX**, **Props**, and **State**. Each concept is explained with examples and simple comments to help you understand how they work in real React projects.
 
