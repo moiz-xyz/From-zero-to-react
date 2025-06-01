@@ -120,4 +120,3 @@ Made by **Moiz** – a frontend developer learning React one hook at a time 💻
 
 Feel free to connect or suggest improvements!
 
-```
