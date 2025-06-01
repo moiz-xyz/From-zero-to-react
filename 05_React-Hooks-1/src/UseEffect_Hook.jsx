@@ -34,6 +34,9 @@ const UseEffect_Hook = () => {
       <div>
         {message ?<h2>Welcome user</h2> : <p>Loading ...</p>}
       </div>
+
+
+    
     </div>
   )
 }
