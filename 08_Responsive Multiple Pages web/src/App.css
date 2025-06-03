@@ -1,0 +1,44 @@
+.grid{
+    display: grid;
+}
+.gridTwocolums {
+    grid-template-columns: repeat(2,1fr);
+}
+.gridThreecolums {
+    grid-template-columns: repeat(3,1fr);
+}
+.gridFourcolums {
+    grid-template-columns: repeat(4,1fr);
+}
+
+header {
+    height: 8rem;
+    box-shadow: rgba(33, 35, 38, 0.1);
+    background-color: #202020;
+    width: 100%;
+    &.container{
+        height: 5rem;
+    }
+}
+.navbar-grid {
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    height: 8rem;
+    padding: 0 3.2rem;
+}
+.logo{
+    margin-top: 10px;
+    font-size: small;
+}
+nav ul {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    font-size: small;
+    margin-left: 10%;
+    & li a {
+        color: #fff;
+    }
+}
