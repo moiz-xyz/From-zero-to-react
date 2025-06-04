@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "country": "Japan",
+    "population": "125 million",
+    "capital": "Tokyo",
+    "interesting_fact": "Has more pets than children."
+  },
+  {
+    "id": 2,
+    "country": "Brazil",
+    "population": "214 million",
+    "capital": "Brasília",
+    "interesting_fact": "Home to the Amazon Rainforest."
+  },
+  {
+    "id": 3,
+    "country": "Canada",
+    "population": "39 million",
+    "capital": "Ottawa",
+    "interesting_fact": "Has the longest coastline in the world."
+  },
+  {
+    "id": 4,
+    "country": "India",
+    "population": "1.4 billion",
+    "capital": "New Delhi",
+    "interesting_fact": "Has a floating post office on Dal Lake."
+  },
+  {
+    "id": 5,
+    "country": "Australia",
+    "population": "26 million",
+    "capital": "Canberra",
+    "interesting_fact": "More kangaroos than people."
+  },
+  {
+    "id": 6,
+    "country": "Egypt",
+    "population": "111 million",
+    "capital": "Cairo",
+    "interesting_fact": "Home to the only surviving ancient wonder – the Great Pyramid."
+  },
+  {
+    "id": 7,
+    "country": "Norway",
+    "population": "5.4 million",
+    "capital": "Oslo",
+    "interesting_fact": "Uses hydropower for over 95% of electricity."
+  },
+  {
+    "id": 8,
+    "country": "Pakistan",
+    "population": "240 million",
+    "capital": "Islamabad",
+    "interesting_fact": "Hosts the world’s highest paved international road: the Karakoram Highway."
+  },
+  {
+    "id": 9,
+    "country": "South Korea",
+    "population": "51 million",
+    "capital": "Seoul",
+    "interesting_fact": "Fastest internet speed in the world."
+  },
+  {
+    "id": 10,
+    "country": "France",
+    "population": "68 million",
+    "capital": "Paris",
+    "interesting_fact": "Invented the metric system."
+  }
+]

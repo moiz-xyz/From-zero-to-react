@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 .grid{
     display: grid;
 }
@@ -44,7 +46,6 @@ nav ul {
 }
 .parent{
     display: flex;
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -52,18 +53,78 @@ nav ul {
 }
 .first {
     width: 50%;
-    border: 6px solid green;
     padding-left: 12%;
     margin-top: 2%;
-    font-family: Poppins;
+  font-family: "DM Sans", sans-serif;
 }
 .first > h2 {
     font-size: 28px;
+}
+.first > p {
+    font-size: 10px;
+    margin-bottom: 8%;
+}
+.first > button{
+     background-color: rgba(33, 35, 38, 0.865);; 
+      border: 1px solid white;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      border-radius: 100px; /* Makes it round */
+      width: 40%;
+      height: auto;
+      cursor: pointer;
+      transition: background-color 0.3s;
+}
+.second {
+    width: 50%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.second > img {
+    width: 70%;
+    padding-left: 10%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* exactly 3 per row */
+  gap: 20px;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
 
-.second {
-    width: 50%;
-     border: 6px solid blue ;
-     height: auto;
+.card {
+  background-color: rgba(128, 128, 128, 0.184);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: white;
+}
+
+.card h2 {
+     color: white;
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.card p {
+ color: rgba(255, 255, 255, 0.53);
+  margin: 10px 0;
+    font-size: 1.3rem;
+  line-height: 1.5;
 }

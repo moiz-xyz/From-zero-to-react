@@ -1,11 +1,10 @@
 :root {
-  --primary: #0077ff;
-  --secondary: #f4f4f4;
+  --primary: black;
+  --secondary: black;
   --dark: #222;
   --light: #fff;
   --gray: #777;
   --max-width: 1200px;
-  --font-family: 'Segoe UI', sans-serif;
 }
 
 *,
@@ -24,7 +23,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+ font-family: "DM Sans", sans-serif;;
   background-color: black;
   color:  white;
   line-height: 1.6;
@@ -108,7 +107,6 @@ a:hover {
 .hero {
   padding: 3rem 0;
   text-align: center;
-  background: linear-gradient(to right, #0077ff, #00bfff);
   color: var(--light);
 }
 
@@ -149,16 +147,13 @@ a:hover {
 /* ========== Cards ========== */
 .card {
   background: var(--light);
-  border: 1px solid #eee;
   border-radius: 10px;
   padding: 1.5rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-}
+
 
 /* ========== Footer ========== */
 footer {
@@ -372,12 +367,5 @@ h6 { font-size: 0.875rem; } */
   width: 8px;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
 
-::-webkit-scrollbar-thumb {
-  background: var(--primary);
-  border-radius: 10px;
-}
 
