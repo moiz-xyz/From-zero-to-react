@@ -42,3 +42,28 @@ nav ul {
         color: #fff;
     }
 }
+.parent{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+}
+.first {
+    width: 50%;
+    border: 6px solid green;
+    padding-left: 12%;
+    margin-top: 2%;
+    font-family: Poppins;
+}
+.first > h2 {
+    font-size: 28px;
+
+}
+
+.second {
+    width: 50%;
+     border: 6px solid blue ;
+     height: auto;
+}
