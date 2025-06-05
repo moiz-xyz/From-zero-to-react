@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "CiLocationOn",
+    "title": "Find Us",
+    "label": "Details",
+    "detail": "USA, Los Angeles"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call Us",
+    "label": "Details",
+    "detail": "+1 (555) 123-4567"
+  },
+  {
+    "icon": "SiGmail",
+    "title": "Mail Us",
+    "label": "Email",
+    "detail": "contact@example.com"
+  }
+]

@@ -128,3 +128,93 @@ nav ul {
     font-size: 1.3rem;
   line-height: 1.5;
 }
+
+  .contact-container {
+        width: 32%;
+        margin: auto;
+        margin-top: 30px;
+      background-color:#333;
+      padding: 10px;
+      border-radius: 13px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: large;
+      text-align: center;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    input, textarea {
+      width: 80%;
+      background-color:#333;
+      margin-left: 15%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 2px solid black;
+      border-radius: 6px;
+      font-size: 10px;
+      color: white;
+    }
+
+    textarea {
+      height: 100px;
+      resize: vertical;
+    }
+
+    button {
+      width: 70%;
+      padding: 12px;
+      margin-left: 15%;
+      background-color:rgba(0, 0, 0, 0.533);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #101010;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 40px 5%;
+  gap: 30px;
+}
+
+.footer-box {
+  text-align: center;
+}
+
+.footer-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #f39c12;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-box h3 {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.footer-box p {
+  font-size: 10px;
+  color: #bbb;
+  line-height: 1.5;
+}

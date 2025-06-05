@@ -135,12 +135,10 @@ a:hover {
 
 .btn-outline {
   background: transparent;
-  border: 2px solid var(--primary);
   color: var(--primary);
 }
 
 .btn-outline:hover {
-  background: var(--primary);
   color: var(--light);
 }
 
@@ -155,33 +153,10 @@ a:hover {
 
 
 
-/* ========== Footer ========== */
-footer {
-  background-color: var(--dark);
-  color: var(--light);
-  text-align: center;
-  padding: 2rem 0;
-  font-size: 0.875rem;
-}
+/* ==========   goter ========== */
 
-/* ========== Forms ========== */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
+  
 
-input, textarea, select {
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: var(--font-family);
-}
-
-input:focus, textarea:focus {
-  border-color: var(--primary);
-  outline: none;
-}
 
 /* ========== Utilities ========== */
 .text-center {

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../App.css"
-import world from "../../public/world.png"
+import world from "/world.png?url"
 import { FaArrowRight } from 'react-icons/fa'
 
 const Home = () => {
