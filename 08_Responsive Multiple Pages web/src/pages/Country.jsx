@@ -1,11 +1,33 @@
-import React from 'react'
+// Country.js
+import React, { useEffect, useState, useTransition } from 'react';
+import Postapi from '../api/postapi';
+import CountryCard from '../componets/CountryCard';
 
 const Country = () => {
-  return (
-    <div>
-      country
-    </div>
-  )
-}
+  const [countries, setCountries] = useState([]);
+  const [isPending, startTransition] = useTransition();
 
-export default Country
+  useEffect(() => {
+    startTransition(() => {
+      Postapi()
+        .then(data => {
+          setCountries(data);
+        })
+        .catch(error => {
+          console.error("Error fetching countries:", error);
+        });
+    });
+  }, []);
+
+  if (isPending) return <h2>Loading...</h2>;
+
+  return (
+    <div className="country-list">
+      {countries.map((currentCountry, index) => (
+        <CountryCard countrydata={currentCountry} key={index} />
+      ))}
+    </div>
+  );
+};
+
+export default Country;
