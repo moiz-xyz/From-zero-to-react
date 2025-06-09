@@ -6,6 +6,7 @@ import Contact from '../pages/Contact';
 import Country from '../pages/Country';
 import Layout from './Layout'; // ✅ Import the layout
 import Notfound from '../pages/Notfound';
+import CountryDeatails from './CountryDeatails';
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
         <Route path='home' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='country' element={<Country />} />
+        <Route path='country/:id' element={<CountryDeatails />} />
         </Route>
         <Route path='*' element = { <Notfound />} /> 
     </Routes>
