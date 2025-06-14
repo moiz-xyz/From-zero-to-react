@@ -2,6 +2,8 @@ import React from 'react'
 import "../App.css"
 import world from "/world.png?url"
 import { FaArrowRight } from 'react-icons/fa'
+import About from './About'
+import Contact from './Contact'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
 <img src={world} alt="" srcset="" />
       </div>
      </div>
+     <About/>
+     <Contact/>
     </div>
   )
 }
